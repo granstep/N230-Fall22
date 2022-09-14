@@ -1,34 +1,21 @@
-//encalsulation
-class Stock{
-    constructor(amount){
-        this.amount = amount;
-    }
+let block = document.getElementById("block");
 
-    setAmount(newAmount){
-        if(newAmount >= 0){
-            this.amount = newAmount;
-        }
-        else{
-            console.error("Stock can not be negative.");
-        }
-    }
+// function smallRed(){
+// resetAnimation(block);
+// block.classList.remove("bigblue");
+// block.classList.add("smallred");
+// }
 
-    getAmount(){
-        return this.amount;
-    }
-}
-//inheritance
-class Book extends Stock{
-    constructor(amount, price){
-        super(amount);
-        this.price = price;
-    }
-    setAmount(newAmount){
-        if(newAmount >= 0){
-            this.amount = newAmount;
-        }
-        else{
-            console.error("Stock can not be negative.");
-        }
-    }
-}
+// function bigBlue(){
+// resetAnimation(block);
+// block.classList.remove("smallred");
+// block.classList.add("bigblue");
+// }
+
+// function resetAnimation(el){
+//     el.style.animation = 'none';
+//     el.offsetHeight;
+//     el.style.animation = null;
+// }
+
+TweenMax.to(block, { duration:2, width: 40, height: 40, backgroundColor: "#1B54F7"});

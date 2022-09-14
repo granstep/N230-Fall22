@@ -1,0 +1,23 @@
+/* .smallred{
+    animation-name: changeAnim;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+}
+
+.bigblue{
+    animation-name: changeAnim;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes changeAnim{
+    from{width: 20px; height: 20px; background-color: red;}
+    to{width: 40px; height: 40px; background-color: blue;}
+} */
+
+#block{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
