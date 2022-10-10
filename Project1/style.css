@@ -1,0 +1,9 @@
+.playerWin{
+    font-weight: bold;
+    color: #ff1f1f;
+}
+
+.opponentWin{
+    font-weight: bold;
+    color: #fff419;
+}
