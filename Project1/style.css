@@ -3,7 +3,25 @@
     color: #ff1f1f;
 }
 
-.opponentWin{
+.opponetWin{
     font-weight: bold;
     color: #fff419;
+}
+
+.player{
+    animation-duration: 2s;
+    animation-name: slidedown;
+}
+.opponet{
+    animation-duration: 2s;
+    animation-name: slidedown;
+}
+
+@keyframes slidedown {
+    from{
+        opacity: 30%;
+    }
+    to{
+        opacity: 100%;
+    }
 }
